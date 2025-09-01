@@ -52,3 +52,8 @@ footer {
   min-height: 400px;
   /* Высота контейнера */
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
