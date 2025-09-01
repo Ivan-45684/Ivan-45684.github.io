@@ -34,3 +34,21 @@ footer {
   background: #333;
   color: #fff;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  /* Автоматические отступы слева и справа */
+  margin-right: auto;
+  /* сработают только для блочных элементов */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  /* Горизонтальное выравнивание */
+  align-items: center;
+  /* Вертикальное выравнивание */
+  min-height: 400px;
+  /* Высота контейнера */
+}
